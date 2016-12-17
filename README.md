@@ -45,17 +45,17 @@ void loop(){
      motor_der.setSpeed(-30);
      motor_izq.setSpeed(-30);
      delay(900);
-     motor_der.setSpeed(-30);
-     motor_izq.setSpeed(30);
-     delay(2000);
+     motor_der.setSpeed(30);
+     motor_izq.setSpeed(-30);
+     delay(1400);
  }
      else if(LDR_izq > 800){
        motor_der.setSpeed(-30);
        motor_izq.setSpeed(-30);
-       delay(1500);
+       delay(900);
         motor_der.setSpeed(30);
         motor_izq.setSpeed(-30);
-        delay(1700);
+        delay(1400);
      }
      
    if(s_ext_der >= 210 && s_ext_izq >= 90){
